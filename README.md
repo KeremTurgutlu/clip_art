@@ -25,6 +25,19 @@ Here are the list of implemented self_supervised.multimodal algorithms:
 
 - CLIP
 - CLIP-MoCo (No paper, own idea)
-- 
+
 For vision algorithms all models from timm and fastai can be used as encoders.
 For multimodal training currently CLIP supports ViT-B/32 and ViT-L/14, following best architectures from the paper.
+
+### Citation
+
+```
+@InProceedings{Conde_2021_CVPR,
+    author    = {Conde, Marcos V. and Turgutlu, Kerem},
+    title     = {CLIP-Art: Contrastive Pre-Training for Fine-Grained Art Classification},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2021},
+    pages     = {3956-3960}
+}
+```
